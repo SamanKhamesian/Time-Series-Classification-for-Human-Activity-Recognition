@@ -1,3 +1,5 @@
+# Human-Activity-Recognition-Time-Series-Classification
+
 ### Abstract
 
 Human activity recognition is the problem of classifying sequences of accelerometer data recorded by specialized harnesses or smart phones into known well-defined movements. (Download link: [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones))
@@ -5,6 +7,8 @@ Human activity recognition is the problem of classifying sequences of accelerome
 Classical approaches to the problem involve hand crafting features from the time series data based on fixed-sized windows and training machine learning models, such as ensembles of decision trees. The difficulty is that this feature engineering requires strong expertise in the field.
 
 Recently, deep learning methods such as recurrent neural networks like as LSTMs and variations that make use of one-dimensional convolutional neural networks or CNNs have been shown to provide state-of-the-art results on challenging activity recognition tasks with little or no data feature engineering, instead using feature learning on raw data. Approximate accuracy is about %88 to %92 in this method.
+
+##
 
 ### Dataset Description
 
@@ -33,6 +37,8 @@ Feature engineering was applied to the window data, and a copy of the data with 
 A number of time and frequency features commonly used in the field of human activity recognition were extracted from each window. The result was a 561 element vector of features.
 
 The dataset was split into train (70%) and test (30%) sets based on data for subjects, e.g. 21 subjects for train and nine for test.
+
+##
 
 ### How to use?
 
