@@ -1,4 +1,4 @@
-# Human-Activity-Recognition-Time-Series-Classification
+# Time-Series-Classification-for-Human-Activity-Recognition
 
 ### Abstract
 
